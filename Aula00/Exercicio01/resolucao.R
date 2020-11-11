@@ -87,24 +87,35 @@ media_mpg <- subtrair(carros_clean$mpg, mean_y)
 quadiff_hp <- quadr(media_hp)
 
 #crie um vetor com o produto das diferenca de x e y criado utilizando a funcao de subtração criada
-quadiff_mpg <- quadr(media_mpg)
+#quadiff_hpmpg <- sum(media_hp)*sum(media_mpg)/sum(quadr(media_hp))
+prod_dif_xy <- prod(media_hp, media_mpg)
 
 #concatene os vetores criados com o data frame
 carros_clean$mpg_media <- media_mpg
 carros_clean$hp_media <- media_hp
 carros_clean$mpg_quad <- quadiff_mpg
 carros_clean$hp_quad <- quadiff_hp
+carros_clean$prod_hpmpg <- prod_dif_xy
 
 ## agora calcule os coeficientes b e a para a reta de regressão com os vetores calculados
 #b <- sum_prod_dif_xy/sum_dif_x2
 #a <- y_bar- b*x_bar
-
+#b <- sum(carros_clean$hp_media-carros_clean$mpg_media)
+b <- sum(carros_clean$prod_hpmpg)/sum(carros_clean$hp_quad)
+#a <- sum(carros_clean$mpg_media)/sum(carros_clean$mpg_quad)
+a <- mean_y - b*mean_x
 ## Com os coeficientes criados crie uma função que estime o valor de mpg dado um valor de hp
 ## y = a + bx
+fy <- function(x){
+  return(a+b*x)
+}
 
+curve(fy(x), from = 40, to = 400, add = T, col = "red")
 ## crie um vetor com os valores preditos f(x) os valores de hp
+carros_clean$predicao <- fy(carros_clean$hp)
 
 ## concatene os valores preditos no data frame
+# já estã
 
 ## calcule os as variaçoes explicada, nao explicada e total
 
