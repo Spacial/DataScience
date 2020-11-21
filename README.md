@@ -10,3 +10,6 @@ Arquivos sobre DataScience
 
 ### Aula 02 - Regressão
 
+## Links
+
+- [Drive do material](https://drive.google.com/drive/folders/1yNgEp3QxxHztMBBmMxPLYfOyn3P2ROeq)
