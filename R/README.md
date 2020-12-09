@@ -49,3 +49,27 @@ $ install.packages("tidyverse")
 - [Quantitative Data | R Tutorial](http://www.r-tutor.com/elementary-statistics/quantitative-data)
 - [R - Quantitative Analysis Guide - Research Guides at New York University](https://guides.nyu.edu/r)
 
+### Histogramas
+
+- [Histograms by Just Defining Bin Width](http://derekogle.com/fishR/2016-03-10-Histograms-with-w)
+
+### Cores
+
+- [R Plot Color](https://www.datamentor.io/r-programming/color/)
+
+### Plots
+
+- [Pretty scatter plots with ggplot2](https://www.r-bloggers.com/2017/05/pretty-scatter-plots-with-ggplot2/)
+- [Using geom_abline() and ggplot](https://stackoverflow.com/questions/39197217/using-geom-abline-and-ggplot)
+- [working with numbers](https://socviz.co/groupfacettx.html)
+- [Histogram with several groups](https://www.r-graph-gallery.com/histogram_several_group.html)
+- [scatter plots](http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization)
+- [Scatterplots ](https://www.statmethods.net/graphs/scatterplot.html)
+
+## Modelos
+
+- [Work with models](https://socviz.co/modeling.html#look-inside-model-objects)
+- [Fligner-Killeen Test in R Programming](https://www.geeksforgeeks.org/fligner-killeen-test-in-r-programming/)
+- [fligner.test](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/fligner.test)
+- [Add regression line equation and R^2 to a ggplot.](https://rpkgs.datanovia.com/ggpubr/reference/stat_regline_equation.html)
+- [Modelos de Regressão para Dados Binários](https://docs.ufpr.br/~taconeli/CE22518/Vinheta2.html#53_an%C3%A1lise_de_res%C3%ADduos)
