@@ -48,6 +48,7 @@ $ install.packages("tidyverse")
 - [Frequency Distribution of Quantitative Data | R Tutorial](https://www.r-tutor.com/elementary-statistics/quantitative-data/frequency-distribution-quantitative-data)
 - [Quantitative Data | R Tutorial](http://www.r-tutor.com/elementary-statistics/quantitative-data)
 - [R - Quantitative Analysis Guide - Research Guides at New York University](https://guides.nyu.edu/r)
+- [Interactive Tutorials for R](https://rstudio.github.io/learnr/)
 
 ### Histogramas
 
